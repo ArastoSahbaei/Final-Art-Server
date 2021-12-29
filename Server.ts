@@ -1,8 +1,8 @@
 import express from 'express'
 import morgan from 'morgan'
 import helmet from 'helmet'
-import { connectToDatabase } from './src/functions/connectToDatabase'
-import { connectToPort } from './src/functions/connectToPort'
+import { connectToDatabase } from './src/configurations/functions/connectToDatabase'
+import { connectToPort } from './src/configurations/functions/connectToPort'
 /* import cors from 'cors' */
 
 const application = express()
