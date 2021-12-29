@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon Server.js",
+    "dev": "npx nodemon Server.js"
   },
   "author": "Arasto Sahbaei (arasto.sahbaei@gmail.com)",
   "license": "ISC",
